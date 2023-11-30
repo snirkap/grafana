@@ -1,4 +1,4 @@
-# Grafan Task
+# Grafana Task
 In this task, I created a K8s cluster with kind and created a monitoring system hosted on the cluster with [kube-prometheus community](https://github.com/prometheus-operator/kube-prometheus/tree/release-0.11) , I also created my own custom dashboard to monitor the cluster with chained variables (data source, node, namespace, pod, container)
 ## Setup:
 1. git clone https://github.com/snirkap/grafana.git
