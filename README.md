@@ -1,4 +1,5 @@
 # grafana
+## Setup:
 1. git clone https://github.com/snirkap/grafana.git
 2. cd grafana 
 3. kind create cluster --name monitoring --image kindest/node:v1.23.6 --config kind.yaml
