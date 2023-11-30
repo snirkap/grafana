@@ -5,7 +5,8 @@
 3. kind create cluster --name monitoring --image kindest/node:v1.23.6 --config kind.yaml
 4. kubectl create -f ./manifests/setup/
 5. kubectl create -f ./manifests/
-6. kubectl -n monitoring port-forward svc/grafana 3000
+6. kubectl get pods -n monitoring
+7. kubectl -n monitoring port-forward svc/grafana 3000
 ## var:
 1. label_values(up{job="kube-state-metrics"}, cluster)
 2. label_values(kube_node_info, node)
