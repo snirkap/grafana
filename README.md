@@ -7,9 +7,4 @@
 5. kubectl create -f ./manifests/
 6. kubectl get pods -n monitoring
 7. kubectl -n monitoring port-forward svc/grafana 3000
-## var:
-1. label_values(up{job="kube-state-metrics"}, cluster)
-2. label_values(kube_node_info, node)
-3. label_values(kube_namespace_status_phase{job="kube-state-metrics", cluster="$cluster"}, namespace)
-4. label_values(kube_pod_info{job="kube-state-metrics", cluster="$cluster", namespace="$namespace"}, pod)
-5. label_values(kube_pod_container_info{job="kube-state-metrics", cluster="$cluster", namespace="$namespace", pod="$pod"}, container)
+
