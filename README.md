@@ -1,4 +1,5 @@
 # grafana
+in this task i created a cluster with kind and created a monitoring system in the cluster with kube-prometheus community, i also created my custom dashboard to monitor the cluster with chained variables (data source, node, namespace, pod, container)  
 ## Setup:
 1. git clone https://github.com/snirkap/grafana.git
 2. cd grafana 
