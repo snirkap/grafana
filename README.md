@@ -10,6 +10,6 @@ in this task i created a cluster with kind and created a monitoring system in th
 8. kubectl -n monitoring port-forward svc/grafana 3000 --address='0.0.0.0' &
 9. enter to the grafana UI "localhost:3000"
 10. the user and the password will be "admin"
-11. On the left there is a tab, click on the plus and on the import and copy the mydashboard.json file
+11. On the left there is a tab, click on the plus and on the import and copy the mydashboard.json file and import the dashboard
 12. and the you will entar the dashboard that i made to monitor the k8s cluster by chained variables 
 
