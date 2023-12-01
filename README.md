@@ -8,7 +8,7 @@ In this task, I created a K8s cluster with kind and created a monitoring system 
 2. ./grafana/setup-grafana.sh
 3. the user and password for grafana will be "admin"
 4. On the left there is a tab, click on the plus and on the import and copy the mydashboard.json file and import the dashboard
-5.then you will enter to the dashboard that i made to monitor the k8s cluster by chained variables 
+5. then you will enter to the dashboard that i made to monitor the k8s cluster by chained variables 
 
 ## My custom Dash board:
 ![image](https://github.com/snirkap/grafana/assets/120733215/6f1c5894-95ac-4f8d-92ee-ff3b8a12ab29)
