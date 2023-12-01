@@ -4,11 +4,11 @@
 set -e
 
 # Create a Kubernetes cluster using kind
-kind create cluster --name monitoring --image kindest/node:v1.23.6 --config kind.yaml
+kind create cluster --name monitoring --image kindest/node:v1.23.6 --config grafana/kind.yaml
 
 # Create Kubernetes objects defined in the Grafana manifests
-kubectl create -f manifests/setup/
-kubectl create -f manifests/
+kubectl create -f grafana/manifests/setup/
+kubectl create -f grafana/manifests/
 
 # Sleep for 2.5 minutes to allow pods to start up
 echo "Waiting for 2:30 minutes to allow pods to start..."
