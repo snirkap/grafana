@@ -11,3 +11,8 @@ In this task, I created a K8s cluster with kind and created a monitoring system 
 8. On the left there is a tab, click on the plus and on the import and copy the mydashboard.json file and import the dashboard
 9. and the you will entar the dashboard that i made to monitor the k8s cluster by chained variables 
 
+## My custom Dash board:
+![image](https://github.com/snirkap/grafana/assets/120733215/6f1c5894-95ac-4f8d-92ee-ff3b8a12ab29)
+![image](https://github.com/snirkap/grafana/assets/120733215/0293a1ea-4209-477c-b6ff-caebc91329f9)
+![image](https://github.com/snirkap/grafana/assets/120733215/0c5c3775-ce7b-4f12-949e-2e32b289b830)
+![image](https://github.com/snirkap/grafana/assets/120733215/3fe8083c-5c98-4f61-87b0-b3b25d54da5b)
